@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   float numero_hombres, numero_mujeres;
+    float total_estudiantes, porcentaje_hombres, porcentaje_mujeres;
+
+    cout << "Cantidad de hombres: ";
+    cin >> numero_hombres;
+    cout << "Cantidad de mujeres: ";
+    cin >> numero_mujeres;
+
+    total_estudiantes = numero_hombres + numero_mujeres;
+    porcentaje_hombres = (numero_hombres / total_estudiantes) * 100;
+    porcentaje_mujeres = (numero_mujeres / total_estudiantes) * 100;
+
+    cout << "Porcentaje de hombres: " << porcentaje_hombres << endl;
+    cout << "Porcentaje de mujeres: " << porcentaje_mujeres << endl;
+
+   
+}
