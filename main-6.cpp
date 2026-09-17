@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int total_compra, descuento, monto_final;
+
+    cout << "Total de la compra: ";
+    cin >> total_compra;
+
+    descuento = total_compra * 0.15;
+    monto_final = total_compra - descuento;
+
+    cout << "Descuento: " << descuento << endl;
+    cout << "Monto final: " << monto_final << endl;
+
+    
+}
