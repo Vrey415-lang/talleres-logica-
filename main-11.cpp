@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    double presupuesto_anual;
+    double dinero_ginecologia, dinero_traumatologia, dinero_pediatria;
+
+    cout << "Presupuesto anual: ";
+    cin >> presupuesto_anual;
+
+    dinero_ginecologia = presupuesto_anual * 0.40;
+    dinero_traumatologia = presupuesto_anual * 0.30;
+    dinero_pediatria = presupuesto_anual * 0.30;
+
+    cout << "Dinero Ginecología: " << dinero_ginecologia << endl;
+    cout << "Dinero Traumatología: " << dinero_traumatologia << endl;
+    cout << "Dinero Pediatría: " << dinero_pediatria << endl;
+
+ 
+}
