@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int A, B, temp;
+
+    cout << "Ingrese el valor de A: ";
+    cin >> A;
+    cout << "Ingrese el valor de B: ";
+    cin >> B;
+
+    temp = A;   // guardamos A antes de perderlo
+    A = B;
+    B = temp;
+
+    cout << "Después del intercambio:" << endl;
+    cout << "A = " << A << endl;
+    cout << "B = " << B << endl;
+
+    return 0;
+}
