@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int precio_compra, ganancia, precio_venta;
+
+    cout << "Precio de compra: ";
+    cin >> precio_compra;
+
+    ganancia = precio_compra * 0.30;
+    precio_venta = precio_compra + ganancia;
+
+    cout << "Precio de venta: " << precio_venta << endl;
+
+   
+}
