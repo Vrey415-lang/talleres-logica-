@@ -1,0 +1,20 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    double longitud, anchura, superficie;
+
+    cout << "Ingrese la longitud de la habitación: ";
+    cin >> longitud;
+    cout << "Ingrese la anchura de la habitación: ";
+    cin >> anchura;
+
+    superficie = longitud * anchura;
+
+    cout << fixed << setprecision(4);
+    cout << "La superficie es: " << superficie << endl;
+
+    return 0;
+}
